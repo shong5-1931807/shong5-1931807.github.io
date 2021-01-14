@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>someCss.html</title>
+    </head>
+    <body>
+    <h1>Level 1: Newbie</h1>
+    <h3>1. Two paragraphs that each have a different font.</h3>
+    <p style="font-family:verdana">This is a paragraph.</p>
+<p style="font-family:'Courier New'">This is another paragraph.</p>
+    <h3>2. Two pictures that were originally different sizes, resized to 50px by 50px.</h3>
+    <a href="https://www.humanesociety.org/resources/understanding-feline-language">
+        <img src="https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2020-07/kitten-510651.jpg?h=f54c7448&itok=ZhplzyJ9" title="Cutie Cat" style="width:50px;height:50px;margin:5px">
+        </a>
+
+        <a href="https://timesofindia.indiatimes.com/life-style/relationships/pets/5-things-that-scare-and-stress-your-cat/articleshow/67586673.cms">
+            <img src="https://static.toiimg.com/thumb/msid-67586673,width-800,height-600,resizemode-75,imgsize-3918697,pt-32,y_pad-40/67586673.jpg" title="Another Cutie Cat" style="width:50px;height:50px;margin:5px">
+        </a>
+    <h3>3. One more unique CSS command that was not discussed in the workshop</h3>
+    <style>
+        p.solid {
+          border: 2px solid rgb(64, 204, 174);
+        }
+        </style>
+       <p class="solid"; style="color: rgb(12, 77, 77);
+          font-family: verdana;
+          font-size: 100%;">One more unique CSS command that was not discussed in the workshop</p>
+        </style>
+
+        <h1>Level 2: Apprentice</h1>
+        <h3>1. Text that is centered on a photo</h3>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+<div class="container">
+  <img src="Koala.jpg" alt="Koala" style="width:50%;">
+  <div class="centered">Centered</div>
+</div>
+
+<h3>2. A photo with 20 pixel margins on each side</h3>
+<img src="photo.jpg" title="Photo" style="width:100px;height:100px;margin:20px">
+<img src="Dumbo.jpg" title="Dumbo" style="width:100px;height:100px;margin:20px">
+<img src="miumiu.jpg" title="Miumiu" style="width:100px;height:100px;margin:20px">
+<h3>3. Text with a border that uses dotted lines</h3>
+<style>
+    p.dotted {border-style: dotted;}
+</style>
+<p class="dotted">A dotted border.</p>
+
+<h1>Level 3: Master</h1>
+<h3>1. An external style sheet</h3>
+<link rel="stylesheet" href="anExternal.css">
+
+<h3>2. A floated element</h3>
+<style>
+    span {
+      float: left;
+      width: 0.7em;
+      font-size: 400%;
+      font-family: algerian, courier;
+      line-height: 80%;
+    }
+    </style>
+<p><span>T</span>This is some text.
+    This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    </p>
+
+<h3>3. An element with rounded border corners</h3>
+<style> 
+   
+    #rcorners {
+      border-radius: 25px;
+      background: url(photo.jpg);
+      background-position: left top;
+      background-repeat: repeat;
+      padding: 20px; 
+      width: 200px;
+      height: 150px;  
+    }
+    </style>
+
+<p id="rcorners">Rounded corners!</p>
+
+</body>
+</html>
+
